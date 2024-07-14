@@ -4,9 +4,6 @@ import { imgdata } from "../Components/config";
 import  SkillsCards  from "../Components/SkillCards";
 
 class Skills extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (

@@ -4,14 +4,10 @@ import {
     FaLinkedin,
     FaMailBulk,
     FaPhone,
-    FaTwitter,
     FaWhatsapp,
   } from 'react-icons/fa';
 class Footer extends Component {
-    constructor(props){
-        super(props);
-    }
-
+  
     render() {
         return (
             <div className='bg-black text-white sm:flex justify-center pt-5 items-center'>
@@ -38,8 +34,7 @@ class Footer extends Component {
                             <ul>
                                 <li className='flex space-x-4 pt-2'>
                                    <a href="https://www.linkedin.com/in/richa-sharma-09678a16a/"><FaLinkedin /></a>
-                                   <a href=""><FaWhatsapp /></a>
-                                   <a href=""><FaTwitter /></a>
+                                   <a href="https://Wa.me/+917975906911"><FaWhatsapp /></a>
                                 </li>
                             </ul>
                         </div>
