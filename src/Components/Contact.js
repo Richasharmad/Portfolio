@@ -50,7 +50,7 @@ class Contact extends Component {
         return (
 
             <div>
-                <div className='text-white h-svh bg-img '><img src='https://actis.co.in/wp-content/uploads/2018/03/sales-contact-bg-2.jpg' style={{ backgroundSize: 'cover', position: 'relative', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height: '100svh' }}></img></div>
+                <div className='text-white h-svh bg-img '><img src='https://actis.co.in/wp-content/uploads/2018/03/sales-contact-bg-2.jpg' alt="" style={{ backgroundSize: 'cover', position: 'relative', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height: '100svh' }}></img></div>
                 <div className='text-white text-xl flex justify-center items-center top-0 absolute' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', height: '100%', width: '100%', position: 'absolute', top: '0' }}>
                     <form
                         data-aos='zoom-out'

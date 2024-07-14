@@ -10,7 +10,7 @@ class Home extends Component {
         console.log("inside home")
         return (
             <div>
-                <div className='text-white h-svh bg-img '><img src={Homepg} style={{ backgroundSize: 'cover', position: 'relative', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height: '100svh' }}></img></div>
+                <div className='text-white h-svh bg-img '><img src={Homepg} alt="" style={{ backgroundSize: 'cover', position: 'relative', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', height: '100svh' }}></img></div>
                 <div className='text-white text-xl flex justify-center items-center top-0 absolute' style={{ backgroundColor: 'rgba(0, 0, 0, 0.7)', height: '100%', width: '100%', position: 'absolute', top: '0' }}>
                     <ul>
                         <li data-aos='zoom-out'>HI, I AM</li>
